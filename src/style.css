@@ -1,0 +1,2187 @@
+body {
+  overflow: auto;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "luckyjet1";
+  src: url("./fonts/luckyjet1.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "luckyjet2";
+  src: url("./fonts/luckyjet2.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "luckyjet3";
+  src: url("./fonts/luckyjet3.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "luckyjet4";
+  src: url("./fonts/luckyjet4.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@media (min-width: 1500px) and (max-width: 3000px) {
+
+  /* width */
+  .jet-left {
+    width: 89%;
+  }
+
+  .jet-main-right {
+    width: 100%;
+  }
+
+  .jet-rate-item-blog,
+  .jet-rate-item-button,
+  .jet-rate-item-button2,
+  .jet-rate-item-button3 {
+    width: 50%;
+  }
+
+  .jet-main-left {
+    max-width: 332px;
+    width: 100%;
+  }
+
+  .lucky-jet__pilot {
+    width: 100px;
+  }
+
+  .jet-rate-item-col {
+    width: 23%;
+  }
+
+  /* width */
+}
+
+@media (min-width: 1500px) and (max-width: 1700px) {
+  .jet-main-right {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1499px) {
+
+  /* width */
+  .jet-left {
+    width: 80%;
+  }
+
+  .jet-main-right {
+    width: 70%;
+  }
+
+  .jet-rate-item-blog,
+  .jet-rate-item-button,
+  .jet-rate-item-button2,
+  .jet-rate-item-button3 {
+    width: 50%;
+  }
+
+  .jet-main-left {
+    max-width: 332px;
+    width: 100%;
+  }
+
+  .lucky-jet__pilot {
+    width: 100px;
+  }
+
+  .jet-rate-item-col {
+    width: 23%;
+  }
+
+  /* width */
+}
+
+@media (min-width: 1280px) and (max-width: 1399px) {
+  /* width */
+
+  .jet-main-right {
+    width: 100%;
+  }
+
+  .jet-left {
+    width: 77%;
+  }
+
+  .jet_main_right_w {
+    width: 73% !important;
+  }
+
+  .jet-rate-item-blog,
+  .jet-rate-item-button,
+  .jet-rate-item-button2,
+  .jet-rate-item-button3 {
+    width: 50%;
+  }
+
+  .jet-main-left {
+    max-width: 332px;
+    width: 100%;
+  }
+
+  .lucky-jet__pilot {
+    width: 100px;
+  }
+
+  .jet-rate-item-col {
+    width: 23%;
+  }
+
+  /* width finish */
+
+  /* flex */
+
+  .jet-main-left {
+    display: none;
+  }
+
+  .jet_main_block {
+    display: block;
+  }
+
+
+  /* flex finish */
+
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* width */
+
+  .jet-main-right {
+    width: 100%;
+  }
+
+  .jet-left {
+    width: 77%;
+  }
+
+  .jet_main_right_w {
+    width: 67% !important;
+  }
+
+  .jet-rate-item-blog,
+  .jet-rate-item-button,
+  .jet-rate-item-button2,
+  .jet-rate-item-button3 {
+    width: 50%;
+  }
+
+  .jet-main-left {
+    max-width: 332px;
+    width: 100%;
+  }
+
+  .lucky-jet__pilot {
+    width: 100px;
+  }
+
+  .jet-rate-item-col {
+    width: 23%;
+  }
+
+  /* width finish */
+
+  /* flex */
+
+  .jet-main-left {
+    display: none;
+  }
+
+  .jet_main_block {
+    display: block;
+  }
+
+
+  /* flex finish */
+
+  /* position */
+
+  .jet-main-shoulder {
+    top: 25px;
+  }
+
+  /* position finish */
+
+  /* font-size */
+
+  .jet-nav-promt-btn {
+    font-size: 11px;
+  }
+
+  /* font-size finish */
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .jet-right,
+  .jet-nav-promt,
+  .jet_main_none,
+  .jet-message-emoji,
+  .history_table {
+    display: none;
+  }
+
+  .jet_main_block,
+  .jet-nav-chat,
+  .jet_right_active,
+  .jet-main-left,
+  .jet_footer,
+  .history_mob_content {
+    display: block;
+  }
+
+  .jet-main {
+    flex-direction: column-reverse;
+  }
+
+  .jet-message-history,
+  .jet-nav-help-btn {
+    display: flex;
+  }
+
+  .jet-main-rate {
+    flex-direction: column;
+  }
+
+  .error {
+    max-width: 90%;
+  }
+
+  .jet-rates-item-shoulder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jet-main-laoding-content {
+    gap: 10px;
+  }
+
+  /* flex finish */
+
+  /* width */
+
+  .jet-main-left {
+    max-width: 100%;
+  }
+
+  .jet_right_active,
+  .jet-left,
+  .jet-main-right,
+  .jet-main-left,
+  .jet-main-rate-item {
+    width: 100%;
+  }
+
+  .rules__modal_dialog,
+  .userinfo_modal_dialog {
+    max-width: 90% !important;
+  }
+
+  .jet_main_right_w {
+    width: 73% !important;
+  }
+
+  .jet-rate-item-blog,
+  .jet-rate-item-button,
+  .jet-rate-item-button2,
+  .jet-rate-item-button3 {
+    width: 50%;
+  }
+
+  .wallet__jet-coin-item {
+    width: 47%;
+  }
+
+  .jet-main-laoding-img {
+    max-width: 100px;
+  }
+
+  .lucky-jet__pilot {
+    width: 65px;
+  }
+
+  .jet-rate-item-col {
+    width: 23%;
+  }
+
+  .jet-rates-item-ava {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* width finish */
+
+  /* height */
+
+  .jet-row,
+  .jet-main {
+    height: 100%;
+  }
+
+  .jet-main-animatsion {
+    width: calc(100% - 20px) !important;
+    height: 208px;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .jet_main_animatsion__content {
+    height: 208px;
+    transition: 0.3s linear;
+  }
+
+  .schedule-bg2 {
+    height: 90px;
+  }
+
+  .jet-rates-item,
+  .jet-rates-item_modal {
+    height: 40px;
+  }
+
+  .jet-nav {
+    height: 57px;
+  }
+
+
+  /* height finish */
+
+  /* active */
+
+  .jet_main_animatsion__content {
+    border: 1px solid rgb(38, 28, 74);
+  }
+
+  .animatsion_fixed>.jet_main_animatsion__content {
+    position: fixed;
+    top: 67px;
+    left: 10px;
+    height: 72px;
+    z-index: 2000;
+    transition: 0.3s linear;
+    width: calc(100% - 20px) !important;
+
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .animatsion_fixed .schedule-number-header,
+  .animatsion_fixed .schedule-number {
+    display: block;
+  }
+
+  .animatsion_fixed .schedule-bg3,
+  .animatsion_fixed .schedule-bg4 {
+    display: none;
+  }
+
+  .animatsion_fixed .schedule-bg2 {
+    height: 45px;
+  }
+
+  .animatsion_fixed .schedule-number {
+    top: 0px;
+    left: 15px;
+  }
+
+  .animatsion_fixed .schedule-number-animated {
+    font-size: 25px;
+  }
+
+  .animatsion_fixed .schedule-number-header::before {
+    font-size: 16px;
+    position: relative;
+    left: 4px;
+  }
+
+  .animatsion_fixed .lucky-jet__pilot {
+    width: 40px;
+  }
+
+  .animatsion_fixed .schedule-number-finish {
+    left: 1%;
+    text-align: unset;
+  }
+
+  .animatsion_fixed .schedule-finish-active {
+    top: -40px !important;
+  }
+
+  .animatsion_fixed .jet-main-laoding-content {
+    flex-direction: unset;
+    justify-content: unset;
+    padding-left: 20px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-img {
+    max-width: 51px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    max-width: 185px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-blog {
+    align-items: unset;
+  }
+
+  .animatsion_fixed .schedule-number-header.number-animated-active {
+    top: -15px;
+  }
+
+  /* active finish */
+
+  /* overflow */
+
+  .jet-rates-list-height {
+    overflow-y: scroll;
+    height: 440px;
+  }
+
+  .history_blog {
+    overflow-y: scroll;
+  }
+
+  /* overflow finish */
+
+
+  /* font-size */
+
+  .schedule-number-animated {
+    font-size: 36px;
+    line-height: 57px;
+  }
+
+  .schedule-number-header::before {
+    font-size: 24px;
+  }
+
+  .schedule-number-finish,
+  .jet-main-laoding-text {
+    font-size: 16px;
+  }
+
+  .wallet__jet-coin-name {
+    font-size: 12px;
+  }
+
+  .jet-nav-promt-btn,
+  .jet-nav-balance-btn {
+    font-size: 11px;
+  }
+
+  /* font-size finish */
+
+  /* position */
+
+  .jet-nav {
+    position: fixed;
+    top: 0;
+    background: rgb(21, 16, 40);
+  }
+
+  .jet-right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .jet-main-shoulder {
+    top: 10px;
+  }
+
+  .schedule-number-finish {
+    top: 45px;
+    left: -5%;
+  }
+
+  .schedule-finish-active {
+    top: -15px !important;
+  }
+
+  .gif__blog {
+    right: 30%;
+  }
+
+  /* position finish */
+
+  /* margin */
+
+  .jet-main-animatsion {
+    margin-top: 47px;
+  }
+
+  .jet-rates-item-shoulder>.rates-item-shoulder-blog {
+    margin-left: 0px;
+  }
+
+
+  .jet-main-right,
+  .jet-main-animatsion {
+    margin-top: 55px;
+  }
+
+  .jet-nav-setting {
+    margin-right: 5px;
+  }
+
+  /* margin finish */
+
+  /* padding */
+
+
+
+  /* padding finish */
+
+
+}
+
+@media (min-width: 568px) and (max-width: 767px) {
+
+  .jet-right,
+  .jet-nav-promt,
+  .jet_main_none,
+  .jet-message-emoji,
+  .history_table,
+  .partner-nav-info-content,
+  .m-none,
+  .partner-nav-tabs,
+  .partner-main_item-icon {
+    display: none;
+  }
+
+  .jet_main_block,
+  .jet-nav-chat,
+  .jet_right_active,
+  .jet-main-left,
+  .jet_footer,
+  .history_mob_content,
+  .partner-nav_burger,
+  .jet_partner-info-block {
+    display: block;
+  }
+
+  .jet-main {
+    flex-direction: column-reverse;
+  }
+
+  .jet-message-history,
+  .jet-nav-help-btn {
+    display: flex;
+  }
+
+  .jet-main-rate,
+  .jet_partner-info,
+  .jet_partner_payout {
+    flex-direction: column;
+  }
+
+  .jet-rates-item-shoulder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jet_partner-info {
+    justify-content: center;
+  }
+
+  .jet_partner-info {
+    align-items: center;
+  }
+
+  .jet-main-laoding-content,
+  .jet_partner_payout {
+    gap: 10px;
+  }
+
+  /* flex finish */
+
+  /* width */
+
+  .jet-main-left {
+    max-width: 100%;
+  }
+
+  .jet_right_active,
+  .jet-left,
+  .jet-main-right,
+  .jet-main-left,
+  .jet-main-rate-item,
+  .jet_partner-info-item {
+    width: 100%;
+  }
+
+  .error {
+    max-width: 90%;
+  }
+
+  .partner_payout_left {
+    max-width: 100%;
+  }
+
+  .rules__modal_dialog,
+  .userinfo_modal_dialog {
+    max-width: 90% !important;
+  }
+
+  .jet_main_right_w {
+    width: 73% !important;
+  }
+
+  .jet-rate-item-blog,
+  .jet-rate-item-button,
+  .jet-rate-item-button2,
+  .jet-rate-item-button3 {
+    width: 50%;
+  }
+
+  .wallet__jet-coin-item {
+    width: 47%;
+  }
+
+  .jet-main-laoding-img {
+    max-width: 100px;
+  }
+
+  .lucky-jet__pilot {
+    width: 65px;
+  }
+
+  .jet-rate-item-col {
+    width: 23%;
+  }
+
+  .jet-rates-item-ava {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* width finish */
+
+  /* height */
+
+  .jet-row,
+  .jet-main,
+  .jet_partner-nav {
+    height: 100%;
+  }
+
+  .jet-main-animatsion {
+    width: calc(100% - 20px) !important;
+    height: 208px;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+
+  .jet_main_animatsion__content {
+    height: 208px;
+    transition: 0.3s linear;
+  }
+
+  .schedule-bg2 {
+    height: 90px;
+  }
+
+  .jet-rates-item,
+  .jet-rates-item_modal {
+    height: 40px;
+  }
+
+  .jet-nav {
+    height: 57px;
+  }
+
+  .partner-link-table {
+    min-height: 350px;
+  }
+
+
+  /* height finish */
+
+  /* active */
+
+  .jet_main_animatsion__content {
+    border: 1px solid rgb(38, 28, 74);
+  }
+
+  .animatsion_fixed>.jet_main_animatsion__content {
+    position: fixed;
+    top: 67px;
+    left: 10px;
+    height: 72px;
+    z-index: 2000;
+    transition: 0.3s linear;
+    width: calc(100% - 20px) !important;
+
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .animatsion_fixed .schedule-number-header,
+  .animatsion_fixed .schedule-number {
+    display: block;
+  }
+
+  .animatsion_fixed .schedule-bg3,
+  .animatsion_fixed .schedule-bg4 {
+    display: none;
+  }
+
+  .animatsion_fixed .schedule-bg2 {
+    height: 45px;
+  }
+
+  .animatsion_fixed .schedule-number {
+    top: 0px;
+    left: 15px;
+  }
+
+  .animatsion_fixed .schedule-number-animated {
+    font-size: 25px;
+  }
+
+  .animatsion_fixed .schedule-number-header::before {
+    font-size: 16px;
+    position: relative;
+    left: 4px;
+  }
+
+  .animatsion_fixed .lucky-jet__pilot {
+    width: 40px;
+  }
+
+  .animatsion_fixed .schedule-number-finish {
+    left: 1%;
+    text-align: unset;
+  }
+
+  .animatsion_fixed .schedule-finish-active {
+    top: -40px !important;
+  }
+
+  .animatsion_fixed .jet-main-laoding-content {
+    flex-direction: unset;
+    justify-content: unset;
+    padding-left: 20px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-img {
+    max-width: 51px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    max-width: 185px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-blog {
+    align-items: unset;
+  }
+
+  .animatsion_fixed .schedule-number-header.number-animated-active {
+    top: -15px;
+  }
+
+  .partner-tabs-active {
+    background: #350f67;
+    color: white;
+    border: 1px solid white;
+  }
+
+  /* active finish */
+
+  /* overflow */
+
+  .jet-rates-list-height {
+    overflow-y: scroll;
+    height: 440px;
+  }
+
+
+  /* overflow finish */
+
+
+  /* font-size */
+
+  .schedule-number-animated {
+    font-size: 36px;
+    line-height: 57px;
+  }
+
+  .partner-main_item-icon {
+    font-size: 30px;
+  }
+
+  .schedule-number-header::before {
+    font-size: 24px;
+  }
+
+  .schedule-number-finish,
+  .jet-main-laoding-text,
+  .partner-main_item-text {
+    font-size: 16px;
+  }
+
+  .wallet__jet-coin-name {
+    font-size: 12px;
+  }
+
+  .jet-nav-promt-btn,
+  .jet-nav-balance-btn {
+    font-size: 11px;
+  }
+
+  .jet_partner-info-text {
+    opacity: 1;
+  }
+
+  /* font-size finish */
+
+  /* overflow */
+
+  .history_blog {
+    overflow-y: scroll;
+  }
+
+  /* overflow finish */
+
+  /* bg */
+
+  .jet_partner-main_blog {
+    box-shadow: 0 0.25rem 2rem rgba(0, 0, 0, .12);
+    border-radius: 1.25rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    max-width: 95%;
+    margin: auto;
+    background: white;
+  }
+
+  .jet_partner-info-col {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #171940;
+  }
+
+  .jet_partner-info-text {
+    color: #584c7f;
+    font-weight: 600;
+  }
+
+  /* bg finish */
+
+  /* position */
+
+  .partner-nav-content {
+    position: relative;
+    z-index: 160;
+  }
+
+  .jet_partner-info-item {
+    border: none;
+
+  }
+
+  .jet_partner-info {
+    box-shadow: none;
+    border-radius: none;
+    margin-top: 10px;
+  }
+
+  .jet-nav {
+    position: fixed;
+    top: 0;
+    background: rgb(21, 16, 40);
+  }
+
+  .jet-right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .jet-main-shoulder {
+    top: 10px;
+  }
+
+  .schedule-number-finish {
+    top: 45px;
+    left: -5%;
+  }
+
+  .schedule-finish-active {
+    top: -15px !important;
+  }
+
+  .gif__blog {
+    right: 30%;
+  }
+
+  .jet-nav-dropdown-menu {
+    top: 36px;
+    right: 100%;
+  }
+
+  /* position finish */
+
+  /* margin */
+
+  .partner-link-header,
+  .partner_payout_info,
+  .partner_payout_auto {
+    margin-top: 0px;
+  }
+
+  .jet-main-animatsion {
+    margin-top: 47px;
+  }
+
+  .jet_partner-header,
+  .partner_payout_card_body {
+    margin-top: 20px;
+  }
+
+  .jet-rates-item-shoulder>.rates-item-shoulder-blog {
+    margin-left: 0px;
+  }
+
+
+  .jet-main-right,
+  .jet-main-animatsion {
+    margin-top: 55px;
+  }
+
+  .jet-nav-setting {
+    margin-right: 5px;
+  }
+
+  .jet_partner-info {
+    margin-bottom: 0px;
+  }
+
+  .jet_partner_payout {
+    margin: 10px;
+  }
+
+  /* margin finish */
+
+  /* padding */
+
+  .wallet__jet-blog-content {
+    padding: 0 8px 20px;
+  }
+
+  .partner-nav-content {
+    padding: 15px;
+  }
+
+  .jet_partner-info-item {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .jet_partner-info-item:last-child {
+    padding-bottom: 0;
+  }
+
+  /* padding finish */
+
+
+}
+
+@media (min-width: 480px) and (max-width: 567px) {
+  
+  .jet-right,
+  .jet-nav-promt,
+  .jet_main_none,
+  .jet-message-emoji,
+  .jet-nav-setting,
+  .jet-nav-payin,
+  .error__blog-item:nth-child(3),
+  .error__blog-item:nth-child(4),
+  .error__blog-item:nth-child(5),
+  .error__blog-item:nth-child(6),
+  .clients_modal_sid_btn,
+  .history_table,
+  .partner-nav-info-content,
+  .m-none,
+  .partner-nav-tabs,
+  .partner-main_item-icon {
+    display: none;
+  }
+
+  .jet_main_block,
+  .jet-nav-chat,
+  .jet_right_active,
+  .jet-main-left,
+  .jet_footer,
+  .clients_modal_item_btn,
+  .m_item_nav,
+  .history_mob_content,
+  .partner-nav_burger,
+  .jet_partner-info-block {
+    display: block;
+  }
+
+  .jet-main {
+    flex-direction: column-reverse;
+  }
+
+  .jet-message-history,
+  .jet-nav-help-btn {
+    display: flex;
+  }
+
+  .clients_modal_item {
+    align-items: unset;
+  }
+
+  .jet_partner-info {
+    align-items: center;
+  }
+
+  .jet_partner-info {
+    justify-content: center;
+  }
+
+  .jet-main-rate,
+  .clients_modal_item,
+  .wallet__jet,
+  .requisites__jet,
+  .wallet__jet-coin-item,
+  .newpass,
+  .jet_partner-info,
+  .jet_partner_payout {
+    flex-direction: column;
+  }
+
+  .jet-rates-item-shoulder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jet-main-laoding-content {
+    gap: 10px;
+  }
+
+  .partner-main_tabs,
+  .jet_partner_payout {
+    gap: 0px;
+  }
+
+  /* flex finish */
+
+  /* width */
+
+  .jet-main-left,
+  .wallet__jet-left,
+  .wallet__jet-right,
+  .requisites__jet-left,
+  .requisites__jet-right,
+  .partner_payout_left {
+    max-width: 100%;
+  }
+
+  .jet_right_active,
+  .jet-left,
+  .jet-main-right,
+  .jet-main-left,
+  .jet-main-rate-item,
+  .newpass_blog,
+  .jet_partner-info-item {
+    width: 100%;
+  }
+
+  .error {
+    max-width: 90%;
+  }
+
+  .rules__modal_dialog,
+  .userinfo_modal_dialog {
+    max-width: 90% !important;
+    margin: auto !important;
+  }
+
+  .jet_main_right_w {
+    width: 73% !important;
+  }
+
+  .jet-rate-item-blog,
+  .jet-rate-item-button,
+  .jet-rate-item-button2,
+  .jet-rate-item-button3 {
+    width: 50%;
+  }
+
+  .wallet__jet-coin-item {
+    width: 47%;
+  }
+
+  .jet-main-laoding-img {
+    max-width: 100px;
+  }
+
+  .jet-nav-left {
+    max-width: 90px;
+  }
+
+  .lucky-jet__pilot {
+    width: 65px;
+  }
+
+  .wallet__jet-coin-item {
+    width: 32%;
+  }
+
+  .jet-rate-item-col {
+    width: 23%;
+  }
+
+  .jet-rates-item-ava {
+    width: 32px;
+    height: 32px;
+  }
+
+  /* width finish */
+
+  /* height */
+
+  .jet-row,
+  .jet-main,
+  .jet_partner-nav {
+    height: 100%;
+  }
+
+  .rules_modal_img {
+    height: auto;
+  }
+
+  .jet-main-animatsion {
+    width: calc(100% - 20px) !important;
+    height: 208px;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+
+  .jet_main_animatsion__content {
+    height: 208px;
+    transition: 0.3s linear;
+  }
+
+  .schedule-bg2 {
+    height: 90px;
+  }
+
+  .clients_modal_item {
+    height: 80px;
+  }
+
+  .wallet__jet-coin-item {
+    height: 70px;
+  }
+
+  .jet-rates-item,
+  .jet-rates-item_modal,
+  .newpass_info_btn {
+    height: 40px;
+  }
+
+  .jet-nav {
+    height: 57px;
+  }
+
+  .wallet__jet-coin {
+    height: 240px;
+  }
+
+  .userinfo_modal_content {
+    height: 100% !important;
+    overflow: unset;
+  }
+
+  .partner-link-table {
+    min-height: 350px;
+  }
+
+  /* height finish */
+
+  /* active */
+
+  .jet_main_animatsion__content {
+    border: 1px solid rgb(38, 28, 74);
+  }
+
+  .animatsion_fixed>.jet_main_animatsion__content {
+    position: fixed;
+    top: 67px;
+    left: 10px;
+    height: 72px;
+    z-index: 2000;
+    transition: 0.3s linear;
+    width: calc(100% - 20px) !important;
+
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .animatsion_fixed .schedule-number-header,
+  .animatsion_fixed .schedule-number {
+    display: block;
+  }
+
+  .animatsion_fixed .schedule-bg3,
+  .animatsion_fixed .schedule-bg4 {
+    display: none;
+  }
+
+  .animatsion_fixed .schedule-bg2 {
+    height: 45px;
+  }
+
+  .animatsion_fixed .schedule-number {
+    top: 0px;
+    left: 15px;
+  }
+
+  .animatsion_fixed .schedule-number-animated {
+    font-size: 25px;
+  }
+
+  .animatsion_fixed .schedule-number-header::before {
+    font-size: 16px;
+    position: relative;
+    left: 4px;
+  }
+
+  .animatsion_fixed .lucky-jet__pilot {
+    width: 40px;
+  }
+
+  .animatsion_fixed .schedule-number-finish {
+    left: 1%;
+    text-align: unset;
+  }
+
+  .animatsion_fixed .schedule-finish-active {
+    top: -40px !important;
+  }
+
+  .animatsion_fixed .jet-main-laoding-content {
+    flex-direction: unset;
+    justify-content: unset;
+    padding-left: 20px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-img {
+    max-width: 51px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    max-width: 185px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-blog {
+    align-items: unset;
+  }
+
+  .animatsion_fixed .schedule-number-header.number-animated-active {
+    top: -15px;
+  }
+
+  .partner-tabs-active {
+    background: #350f67;
+    color: white;
+    border: 1px solid white;
+  }
+
+  /* active finish */
+
+  /* overflow */
+
+  .jet-rates-list-height {
+    overflow-y: scroll;
+    height: 440px;
+  }
+
+  .history_blog {
+    overflow-y: scroll;
+  }
+
+  .jet_partner-info-col {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #171940;
+  }
+
+  .jet_partner-info-item {
+    border: none;
+  }
+
+  /* overflow finish */
+
+
+  /* font-size */
+
+  .schedule-number-animated {
+    font-size: 36px;
+    line-height: 57px;
+  }
+
+  .schedule-number-header::before,
+  .partner-link-header-title {
+    font-size: 24px;
+  }
+
+  .schedule-number-finish,
+  .jet-main-laoding-text .partner-main_item-text {
+    font-size: 16px;
+  }
+
+  .partner-main_item-text,
+  .partner-table {
+    font-size: 14px;
+  }
+
+
+
+  .wallet__jet-coin-name {
+    font-size: 12px;
+  }
+
+  .wallet__jet-blog-item {
+    font-size: 10px;
+  }
+
+  .jet-nav-promt-btn,
+  .jet-nav-balance-btn {
+    font-size: 11px;
+  }
+
+  .jet_partner-info-text {
+    color: #584c7f;
+    font-weight: 600;
+  }
+
+  .jet_partner-info-text {
+    opacity: 1;
+  }
+
+  /* font-size finish */
+
+  /* position */
+
+  .jet-nav {
+    position: fixed;
+    top: 0;
+    background: rgb(21, 16, 40);
+  }
+
+  .jet-right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .wallet__jet-close_modal {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: #ffffff;
+  }
+
+  .jet-main-shoulder {
+    top: 10px;
+  }
+
+  .schedule-number-finish {
+    top: 45px;
+    left: -5%;
+  }
+
+  .schedule-finish-active {
+    top: -15px !important;
+  }
+
+  .gif__blog {
+    right: 30%;
+  }
+
+  .partner-nav-content {
+    position: relative;
+    z-index: 160;
+  }
+
+  .jet-nav-balance+.jet-nav-dropdown .jet-nav-dropdown-menu {
+    top: 36px;
+    left: unset;
+  }
+
+  .jet_partner-info {
+    box-shadow: none;
+    border-radius: none;
+    margin-top: 10px;
+  }
+
+  .jet_partner-main_blog {
+    box-shadow: 0 0.25rem 2rem rgba(0, 0, 0, .12);
+    border-radius: 1.25rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    max-width: 100%;
+    background: white;
+  }
+
+  /* position finish */
+
+  /* margin */
+
+  .partner-link-header,
+  .partner_payout_info,
+  .partner_payout_auto {
+    margin-top: 0px;
+  }
+
+  .jet-main-animatsion {
+    margin-top: 47px;
+  }
+
+  .jet_partner-header,
+  .partner_payout_card_body {
+    margin-top: 20px;
+  }
+
+  .jet-rates-item-shoulder>.rates-item-shoulder-blog,
+  .jet-nav-chat {
+    margin-left: 0px;
+  }
+
+  .jet_partner-info {
+    margin-bottom: 0px;
+  }
+
+  .jet-main-right,
+  .jet-main-animatsion {
+    margin-top: 55px;
+  }
+
+  .jet-nav-setting {
+    margin-right: 5px;
+  }
+
+
+
+  /* margin finish */
+
+  /* padding */
+
+  .partner-main_tabs {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px !important;
+  }
+
+  .info_modal_clients,
+  .newpass_info_btn,
+  .rules_modal_body {
+    padding: 10px;
+  }
+
+  .clients_modal_item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .partner-nav-content {
+    padding: 5px;
+  }
+
+
+  .jet_partner-info-item {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  /* padding finish */
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  
+  .jet-right,
+  .jet-nav-promt,
+  .jet_main_none,
+  .jet-message-emoji,
+  .jet-nav-setting,
+  .jet-nav-payin,
+  .error__blog-item:nth-child(3),
+  .error__blog-item:nth-child(4),
+  .error__blog-item:nth-child(5),
+  .error__blog-item:nth-child(6),
+  .clients_modal_sid_btn,
+  .history_table,
+  .partner-nav-info-content,
+  .m-none,
+  .partner-nav-tabs,
+  .partner-main_item-icon {
+    display: none;
+  }
+
+  .jet_main_block,
+  .jet-nav-chat,
+  .jet_right_active,
+  .jet-main-left,
+  .jet_footer,
+  .clients_modal_item_btn,
+  .m_item_nav,
+  .history_mob_content,
+  .partner-nav_burger,
+  .jet_partner-info-block {
+    display: block;
+  }
+
+  .jet-main {
+    flex-direction: column-reverse;
+  }
+
+  .jet-message-history,
+  .jet-nav-help-btn {
+    display: flex;
+  }
+
+  .clients_modal_item {
+    align-items: unset;
+  }
+
+  .rules_modal_flex {
+    flex-wrap: wrap;
+  }
+
+  .jet_partner-info {
+    align-items: center;
+  }
+
+  .jet_partner-info {
+    justify-content: center;
+  }
+
+  .jet-main-rate,
+  .clients_modal_item,
+  .wallet__jet,
+  .requisites__jet,
+  .wallet__jet-coin-item,
+  .newpass,
+  .jet_partner-info,
+  .jet_partner_payout {
+    flex-direction: column;
+  }
+
+  .jet-rates-item-shoulder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jet-main-laoding-content,
+  .partner-contact {
+    gap: 10px;
+  }
+
+  .partner-main_tabs,
+  .jet_partner_payout {
+    gap: 0px;
+  }
+
+  /* flex finish */
+
+  /* width */
+
+  .error {
+    max-width: 90%;
+  }
+
+  .jet-main-left,
+  .wallet__jet-left,
+  .wallet__jet-right,
+  .requisites__jet-left,
+  .requisites__jet-right,
+  .bonus__modal_input,
+  .partner_payout_left {
+    max-width: 100%;
+  }
+
+  .jet_right_active,
+  .jet-left,
+  .jet-main-right,
+  .jet-main-left,
+  .jet-main-rate-item,
+  .newpass_blog,
+  .bonus__modal_input,
+  .rules_modal_item:nth-child(3),
+  .jet_partner-info-item {
+    width: 100%;
+  }
+
+
+  .rules__modal_dialog,
+  .userinfo_modal_dialog {
+    max-width: 90% !important;
+    margin: auto !important;
+  }
+
+  .jet_main_right_w {
+    width: 73% !important;
+  }
+
+  .jet-rate-item-blog,
+  .jet-rate-item-button,
+  .jet-rate-item-button2,
+  .jet-rate-item-button3,
+  .rules_modal_item:nth-child(2),
+  .rules_modal_item:nth-child(1) {
+    width: 50%;
+  }
+
+  .wallet__jet-coin-item {
+    width: 47%;
+  }
+
+  .jet-main-laoding-img {
+    max-width: 100px;
+  }
+
+  .jet-nav-left {
+    max-width: 90px;
+  }
+
+  .lucky-jet__pilot {
+    width: 50px;
+  }
+
+  .jet-rate-item-col {
+    width: 23%;
+  }
+
+  .jet-rates-item-ava,
+  .about__faq-blog-header-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .jet-main-laoding-text {
+    max-width: 260px;
+  }
+
+  .jet-nav-payin-btn {
+    height: 28px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .error {
+    max-width: 90%;
+  }
+
+  .rules_modal_img {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .jet_partner_menu_link {
+    max-width: 47%;
+  }
+
+  /* width finish */
+
+  /* height */
+
+  .jet-row,
+  .jet-main,
+  .jet_partner-nav {
+    height: 100%;
+  }
+
+  .rules_modal_img {
+    height: 100px;
+  }
+
+  .jet-main-animatsion {
+    width: calc(100% - 20px) !important;
+    height: 208px;
+    margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .wallet__jet-content .wallet__jet-blog {
+    height: 180px;
+  }
+
+  .history_blog {
+    height: 380px !important;
+  }
+
+  .jet_main_animatsion__content {
+    height: 208px;
+    transition: 0.3s linear;
+  }
+
+  .user_wallet_card {
+    height: 170px;
+  }
+
+  .schedule-bg2 {
+    height: 90px;
+  }
+
+  .clients_modal_item {
+    height: 80px;
+  }
+
+  .wallet__jet-coin-item {
+    height: 70px;
+  }
+
+  .jet-rates-item,
+  .jet-rates-item_modal,
+  .newpass_info_btn,
+  .wallet__jet-blog-btn {
+    height: 40px;
+  }
+
+  .jet-nav {
+    height: 57px;
+  }
+
+  .wallet__jet-coin {
+    height: 160px;
+  }
+
+  .userinfo_modal_content {
+    height: 100% !important;
+    overflow: unset;
+  }
+
+  .partner-contact-item {
+    height: unset;
+  }
+
+  .partner-link-table {
+    min-height: 350px;
+  }
+
+  /* height finish */
+
+  /* active */
+
+  .jet_main_animatsion__content {
+    border: 1px solid rgb(38, 28, 74);
+  }
+
+  .animatsion_fixed>.jet_main_animatsion__content {
+    position: fixed;
+    top: 67px;
+    left: 10px;
+    height: 72px;
+    z-index: 2000;
+    transition: 0.3s linear;
+    width: calc(100% - 20px) !important;
+
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .animatsion_fixed .schedule-number-header,
+  .animatsion_fixed .schedule-number {
+    display: block;
+  }
+
+  .animatsion_fixed .schedule-bg3,
+  .animatsion_fixed .schedule-bg4,
+  .help__left {
+    display: none;
+  }
+
+  .animatsion_fixed .schedule-bg2 {
+    height: 45px;
+  }
+
+  .animatsion_fixed .schedule-number {
+    top: 0px;
+    left: 15px;
+  }
+
+  .animatsion_fixed .schedule-number-animated {
+    font-size: 25px;
+  }
+
+  .animatsion_fixed .schedule-number-header::before {
+    font-size: 16px;
+    position: relative;
+    left: 4px;
+  }
+
+  .animatsion_fixed .lucky-jet__pilot {
+    width: 40px;
+  }
+
+  .animatsion_fixed .schedule-number-finish {
+    left: 1%;
+    text-align: unset;
+  }
+
+  .animatsion_fixed .schedule-finish-active {
+    top: -40px !important;
+  }
+
+  .animatsion_fixed .jet-main-laoding-content {
+    flex-direction: unset;
+    justify-content: unset;
+    padding-left: 20px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-img {
+    max-width: 51px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    max-width: 185px;
+  }
+
+  .animatsion_fixed .jet-main-laoding-blog {
+    align-items: unset;
+  }
+
+  .animatsion_fixed .schedule-number-header.number-animated-active {
+    top: -15px;
+  }
+
+  .partner-tabs-active {
+    background: #350f67;
+    color: white;
+    border: 1px solid white;
+  }
+
+  /* active finish */
+
+  /* overflow */
+
+  .jet-rates-list-height {
+    overflow-y: scroll;
+    height: 440px;
+  }
+
+  .help__right_content::before {
+    content: unset;
+  }
+
+  .history_blog {
+    overflow-y: scroll;
+  }
+
+  /* overflow finish */
+
+
+  /* font-size */
+
+  .schedule-number-animated {
+    font-size: 36px;
+    line-height: 57px;
+  }
+
+  .schedule-number-header::before,
+  .laoding-text {
+    font-size: 24px;
+  }
+
+  .partner-link-header-title {
+    font-size: 20px;
+  }
+
+  .help__faq_title,
+  .partner-contact-title {
+    font-size: 18px;
+  }
+
+  .schedule-number-finish,
+  .jet-main-laoding-text,
+  .about__faq-blog-header-text {
+    font-size: 16px;
+  }
+
+  .wallet__jet_user_w_modal,
+  .wallet__jet_user_w_number,
+  .about__faq-blog-dropdown p,
+  .history_mob_col_title,
+  .history_mob_col_rusult,
+  .partner-table,
+  .jet_partner_menu_link,
+  .partner-main_item-text,
+  .partner-table,
+  .faq-col-dropdown-text,
+  .partner-faq-col-header {
+    font-size: 14px;
+  }
+
+
+  .wallet__jet-coin-name {
+    font-size: 12px;
+  }
+
+  .jet-nav-promt-btn,
+  .jet-nav-balance-btn,
+  .wallet__jet-blog-item {
+    font-size: 11px;
+  }
+
+  .info_modal_body_top_left {
+    font-size: 10px;
+  }
+
+  .jet_partner-info-text {
+    color: #584c7f;
+    font-weight: 600;
+    opacity: 1;
+  }
+
+  /* font-size finish */
+
+  /* position */
+
+  .wallet__jet-close_modal {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    background-color: #ffffff;
+  }
+
+  .jet-nav {
+    position: fixed;
+    top: 0;
+    background: rgb(21, 16, 40);
+  }
+
+  .jet-coin-take {
+    top: -43px;
+    transform: translateY(35px);
+  }
+
+
+  .jet-right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .jet-main-shoulder {
+    top: 10px;
+  }
+
+  .schedule-number-finish {
+    top: 45px;
+    left: -5%;
+  }
+
+  .schedule-finish-active {
+    top: -15px !important;
+  }
+
+  .gif__blog {
+    right: 15%;
+
+  }
+
+  .jet-nav-dropdown-menu {
+    top: 36px;
+    left: -160%;
+  }
+
+  .jet-nav-balance+.jet-nav-dropdown .jet-nav-dropdown-menu {
+    top: 36px;
+    left: unset;
+  }
+
+  .partner-nav-content {
+    position: relative;
+    z-index: 160;
+  }
+
+  .jet_partner-main_blog {
+    box-shadow: 0 0.25rem 2rem rgba(0, 0, 0, .12);
+    border-radius: 1.25rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    max-width: 100%;
+    background: white;
+  }
+
+  /* position finish */
+
+  /* margin */
+
+  .jet-main-animatsion {
+    margin-top: 47px;
+  }
+
+  .jet-rates-item-shoulder>.rates-item-shoulder-blog,
+  .jet-nav-chat {
+    margin-left: 0px;
+  }
+
+  .partner-contact-item:nth-child(1) {
+    margin-right: 0;
+  }
+
+  .jet_partner_menu_hedaer {
+    padding-top: 23%;
+  }
+
+  .partner-link-header,
+  .partner_payout_info,
+  .partner_payout_auto {
+    margin-top: 0px;
+  }
+
+  .jet_partner-header,
+  .partner_payout_card_body {
+    margin-top: 20px;
+  }
+
+  .jet-main-right,
+  .jet-main-animatsion {
+    margin-top: 55px;
+  }
+
+  .jet-nav-setting {
+    margin-right: 5px;
+  }
+
+  .partner-main_item-text {
+    margin-right: 1rem;
+  }
+
+  /* margin finish */
+
+  /* button */
+
+  .partner-link-header-btn {
+    font-size: 14px;
+    padding: 10px;
+    line-height: unset;
+  }
+
+
+
+  /* padding */
+
+  .partner-nav-content {
+    padding: 5px;
+  }
+
+  .container {
+    padding: 10px !important;
+  }
+
+
+  .rules_modal_body,
+  .info_modal_clients,
+  .wallet__jet-header,
+  .partner-link-header,
+  .partner-main_tabs,
+  .partner-link,
+  .jet_partner-info-item,
+  .partner-faq-col-dropdown,
+  .partner-contact-item {
+    padding: 10px;
+  }
+
+
+  .clients_modal_item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .wallet__jet-left {
+    padding: 10px 0 10px;
+  }
+
+  .wallet__jet-blog-content {
+    padding: 0 10px 10px;
+  }
+
+  .wallet__jet_info_item {
+    padding: 8px;
+  }
+
+  .about__faq-blog {
+    padding: 0 10px;
+  }
+
+  /* padding finish */
+
+
+
+}

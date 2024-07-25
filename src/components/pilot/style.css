@@ -1,0 +1,59 @@
+.lucky-jet {
+	outline: 1px solid;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+
+}
+.lucky-jet__pilot {
+	visibility: hidden;
+	width: 80px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.lucky-jet._animating .lucky-jet__pilot {
+	visibility: visible;
+}
+.lucky-jet__pilot::before {
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+.lucky-jet__pilot-img {
+position: absolute;
+top: 0;
+left: 0;	
+width: 100%;
+height: 100%;
+object-fit: contain;
+transform: rotate(7deg);
+}
+
+
+.lucky-jet__svg {
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+
+@media (min-width: 768px) {
+	.lucky-jet__pilot {
+		width: 110px;
+	}
+}
+
+.schedule-animate-img img:nth-child(1){
+  position: absolute;
+  width: 60%;
+  margin-top: 70%;
+  margin-left: -32%;
+  z-index: -1;
+  transform: rotateX(138deg);
+  }
+  
+  .schedule-animate-img img:nth-child(2){
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  }
